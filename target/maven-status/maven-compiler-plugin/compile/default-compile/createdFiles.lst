@@ -1,0 +1,12 @@
+com/example/demo/service/mapper/ReceiverMapperImpl.class
+com/example/demo/service/ReceiverService.class
+com/example/demo/service/mapper/ReceiverMapper.class
+com/example/demo/ServletInitializer.class
+com/example/demo/service/mapper/EntityMapper.class
+com/example/demo/DemoApplication.class
+com/example/demo/exceptionHandling/ReceiverAlreadyRegisteredException.class
+com/example/demo/repository/ReceiverRepository.class
+com/example/demo/domain/Receiver.class
+com/example/demo/service/serviceImpl/ReceiverServiceImpl.class
+com/example/demo/service/dto/ReceiverDTO.class
+com/example/demo/controller/ReceiverRest.class

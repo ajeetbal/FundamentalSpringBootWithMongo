@@ -1,0 +1,11 @@
+/home/user/Downloads/demo/src/main/java/com/example/demo/service/ReceiverService.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/domain/Receiver.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/ServletInitializer.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/repository/ReceiverRepository.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/service/dto/ReceiverDTO.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/controller/ReceiverRest.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/exceptionHandling/ReceiverAlreadyRegisteredException.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/service/mapper/ReceiverMapper.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/DemoApplication.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/service/mapper/EntityMapper.java
+/home/user/Downloads/demo/src/main/java/com/example/demo/service/serviceImpl/ReceiverServiceImpl.java
