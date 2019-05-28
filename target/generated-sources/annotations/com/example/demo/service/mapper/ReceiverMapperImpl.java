@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2019-05-17T15:32:47+0530",
+    date = "2019-05-28T12:14:10+0530",
     comments = "version: 1.3.0.Final, compiler: javac, environment: Java 1.8.0_191 (Oracle Corporation)"
 )
 @Component
@@ -30,6 +30,7 @@ public class ReceiverMapperImpl implements ReceiverMapper {
         receiver.setEmail( dto.getEmail() );
         receiver.setGender( dto.getGender() );
         receiver.setEncryptPassword( dto.getEncryptPassword() );
+        receiver.setStatus( dto.getStatus() );
 
         return receiver;
     }
@@ -49,6 +50,7 @@ public class ReceiverMapperImpl implements ReceiverMapper {
         receiverDTO.setEmail( entity.getEmail() );
         receiverDTO.setGender( entity.getGender() );
         receiverDTO.setEncryptPassword( entity.getEncryptPassword() );
+        receiverDTO.setStatus( entity.getStatus() );
 
         return receiverDTO;
     }

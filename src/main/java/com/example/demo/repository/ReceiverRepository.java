@@ -11,3 +11,4 @@ public interface ReceiverRepository extends MongoRepository<Receiver, String> {
 	Receiver findByEmailAndMobileNumber(String email, String mobileNumber);
 
 }
+
