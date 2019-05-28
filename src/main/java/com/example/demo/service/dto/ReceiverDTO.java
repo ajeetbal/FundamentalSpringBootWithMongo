@@ -1,5 +1,8 @@
 package com.example.demo.service.dto;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
+
+@JsonFilter("somebean")
 public class ReceiverDTO {
 
 	private String firstName;
@@ -15,6 +18,8 @@ public class ReceiverDTO {
 	private String gender;
 
 	private String encryptPassword;
+
+	private Boolean status;
 
 	public String getFirstName() {
 		return firstName;
@@ -70,6 +75,32 @@ public class ReceiverDTO {
 
 	public void setEncryptPassword(String encryptPassword) {
 		this.encryptPassword = encryptPassword;
+	}
+
+	public Boolean getStatus() {
+		return status;
+	}
+
+	public void setStatus(Boolean status) {
+		this.status = status;
+	}
+
+	public ReceiverDTO(String firstName, String lastName, String userName, String mobileNumber, String email,
+			String gender, String encryptPassword, Boolean status) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.userName = userName;
+		this.mobileNumber = mobileNumber;
+		this.email = email;
+		this.gender = gender;
+		this.encryptPassword = encryptPassword;
+		this.status = status;
+	}
+
+	public ReceiverDTO() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override

@@ -2,6 +2,8 @@ package com.example.demo.domain;
 
 import java.time.Instant;
 
+import javax.validation.constraints.Size;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -9,8 +11,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Receiver {
 
 	@Id
+	
 	private String id;
 
+	@Size(min=3,message = "first name should have minimum 3 char")
 	private String firstName;
 
 	private String lastName;
@@ -24,6 +28,8 @@ public class Receiver {
 	private String gender;
 
 	private String encryptPassword;
+
+	private Boolean status;
 
 	private Instant createdOn;
 
@@ -91,6 +97,14 @@ public class Receiver {
 
 	public void setEncryptPassword(String encryptPassword) {
 		this.encryptPassword = encryptPassword;
+	}
+
+	public Boolean getStatus() {
+		return status;
+	}
+
+	public void setStatus(Boolean status) {
+		this.status = status;
 	}
 
 	public Instant getCreatedOn() {
